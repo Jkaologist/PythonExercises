@@ -9,7 +9,7 @@ def multiple_letter_count(phrase):
     """
     counts = dict()
     for letter in phrase:
-        if counts.get(letter) == None:
+        if counts.get(letter) is None:
             counts[letter] = 1
         else:
             counts[letter] += 1

@@ -44,12 +44,10 @@ def list_manipulation(lst, command, location, value=None):
         first = lst[0]
         lst.remove(lst[0])
         return first
-        
     elif command == "remove" and location == "end" and value is None:
         last = lst[-1]
         lst.remove(lst[-1])
         return last
-    
     if value is not None and command == "add" and location == "beginning":
         lst.insert(0, value)
         return lst
