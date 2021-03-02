@@ -18,3 +18,5 @@ def weekday_name(day_of_week):
         return None
     else:
         return days[day_of_week - 1]
+
+    # Flip the if and else statements, Python returns None by default

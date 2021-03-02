@@ -11,3 +11,5 @@ def last_element(lst):
         return None
     else:
         return lst[-1]
+
+    #same flip them
