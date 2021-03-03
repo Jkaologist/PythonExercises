@@ -34,5 +34,4 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
         return f'{message} {a * b}'
     elif operation == 'divide':
         return f'{message} {a / b}'
-    else:
-        return None
+    # can just return None outside of block

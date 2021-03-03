@@ -16,10 +16,10 @@ def friend_date(a, b):
         >>> friend_date(sauron, gandalf)
         True
     """
-    a = list(a)
+    #can access index of tuples
     hobbies_a = set(a[2])
-    b = list(b)
     hobbies_b = set(b[2])
+    # can just return here it will evaluate
     if len(hobbies_a & hobbies_b) >= 1:
         return True
     else:

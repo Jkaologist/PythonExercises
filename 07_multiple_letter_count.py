@@ -14,3 +14,4 @@ def multiple_letter_count(phrase):
         else:
             counts[letter] += 1
     return counts
+    # possible dictionary comprehension soln in one line, less performant

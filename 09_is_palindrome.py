@@ -21,8 +21,9 @@ def is_palindrome(phrase):
         >>> is_palindrome('Noon')
         True
     """
-    reverseStr = phrase[::-1].lower().replace(' ', '')
-    if phrase.lower().replace(' ', '') == reverseStr:
-        return True
-    else:
-        return False
+    reverse_str = phrase[::-1].lower().replace(' ', '')
+
+    return phrase.lower().replace(' ', '') == reverse_str
+
+
+# if you are returning true or false return if block, lower snake case

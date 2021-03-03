@@ -42,11 +42,11 @@ def list_manipulation(lst, command, location, value=None):
     """
     if command == "remove" and location == "beginning" and value is None:
         first = lst[0]
-        lst.remove(lst[0])
+        lst.remove(lst[0]) # pop can pop whatever at any index pass in the index
         return first
     elif command == "remove" and location == "end" and value is None:
         last = lst[-1]
-        lst.remove(lst[-1])
+        lst.remove(lst[-1]) # pop is a possibility
         return last
     if value is not None and command == "add" and location == "beginning":
         lst.insert(0, value)

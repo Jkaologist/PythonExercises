@@ -13,6 +13,7 @@ def flip_case(phrase, to_swap):
     """
     new_str = ''
     for letter in phrase:
+        #call .lower and .upper on letter itself
         if (letter == to_swap.upper()) or (letter == to_swap.lower()):
             new_str += letter.swapcase()
         else:

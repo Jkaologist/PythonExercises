@@ -5,4 +5,5 @@ def compact(lst):
         [1, 2, 'All done']
     """
     return list(filter(bool, lst))
+    #list comprehension
     
